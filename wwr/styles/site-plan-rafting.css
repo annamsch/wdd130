@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+:root {
+    --primary-color: #6C9A8B
+    --secondary-color: #E8998D
+    --accent1-color: #EED2CC
+    --accent2-color: #FBF7F4
+
+    --heading-font: 'Lora', serif;
+    --paragraph-font: 'Georgia', serif;
+
+    --nav-background-color: #FBF7F4
+    --nav-link-color: #6C9A8B
+    --nav-hover-link-color: #A1683A
+    --nav-hover-background-color: #FBF7F4
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
