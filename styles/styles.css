@@ -47,6 +47,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right
 }
 
 p { padding: 0;}
@@ -69,9 +70,10 @@ footer {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 
-aside.box h2 {
+aside h2 {
     position: absolute;
     top: 47px;
     left: 59px;
